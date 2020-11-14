@@ -1,0 +1,276 @@
+/* font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Josefin Sans, Roboto, Open Sans, Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Josefin Sans;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 10rem;
+    width: 98%;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0 auto;
+    font-family: josefin sans;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 10vw;
+    height: 14vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    font-size: 2rem;
+}
+
+.navitem {
+    padding: 0 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a a:visited {
+    color: #2c7a5b;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Josefin Sans;
+}
+
+main {
+    width: 97%;
+    margin: auto;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: Josefin Sans;
+}
+
+.services,
+.areasofservice {
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    width: 20vw;
+    padding-top: 3rem;
+}
+
+.services p,
+.areasofservice p {
+    padding: 2rem 2rem;
+}
+
+.formsection {
+    background: rgb(44, 122, 91);
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+}
+
+.forms-field {
+    margin: 2rem;
+}
+
+.submitbtn {
+    width: 20vw;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 2rem;
+}
+
+.input-subject {
+    height: 20vh;
+}
+
+input {
+    margin: 2rem;
+    padding: 2rem;
+    margin: auto;
+    width: 50vw;
+    /* height: 8vh; */
+}
+
+.submit {
+    width: 10vw;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.areasofservice {
+    width: 20vw;
+    flex-direction: column;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 3rem 0rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.cards {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    font-size: 1.8rem;
+}
+
+.card {
+    flex: 1 1 20rem;
+    width: 100%;
+    margin: 1rem;
+    height: 50vh;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 5px 10px 10px gray;
+    margin: 1rem;
+}
+
+h4 {
+    font-weight: bold;
+    color: white;
+    padding: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(44, 122, 91);
+    margin-bottom: 3rem;
+}
+
+.cards p {
+    padding: 0rem 2rem;
+    line-height: 3rem;
+}
+
+.task {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex: 1 1 30rem;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h5 {
+    font-weight: bold;
+    box-shadow: 5px 10px 10px gray;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    color: white;
+    padding: 3rem 4rem;
+    width: 40rem;
+    background-color: rgb(44, 122, 91);
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.hours a {
+    color: rgb(44, 122, 91);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 1 40rem;
+}
+
+.gallery img {
+    margin: auto;
+    padding: 1rem;
+    width: 32vw;
+    height: 50vh;
+    flex: 1 1 40rem;
+}
+
+.footer p {
+    font-size: 1.8rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 10rem;
+}
+
+
+/* responsive view */
+
+@media (max-width: 700px) and (min-width: 300px) {
+    header {
+        text-align: center;
+        display: flex;
+    }
+}
